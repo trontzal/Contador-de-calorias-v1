@@ -109,6 +109,71 @@
                     android:max="125"/>
 
                 <TextView
+                    android:id="@+id/idProteinasObjetivo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="39 / 125 g"/>
+
+            </LinearLayout>
+
+            <!-- Columna 2 -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="8dp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Carbohidratos"
+                    android:textColor="@color/miColorTexto"
+                    android:textSize="12sp" />
+
+                <ProgressBar
+                    android:id="@+id/idProgresoCarbohidratos"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:progress="39"
+                    android:max="125"/>
+
+                <TextView
+                    android:id="@+id/idProgresoCarbohidratosObjetivo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="39 / 125 g"/>
+
+            </LinearLayout>
+
+            <!-- Columna 3 -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="8dp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Grasas"
+                    android:textColor="@color/miColorTexto"
+                    android:textSize="12sp" />
+
+                <ProgressBar
+                    android:id="@+id/idProgresoGrasas"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:progress="39"
+                    android:max="125"/>
+
+                <TextView
+                    android:id="@+id/idProgresoGrasasObjetivo"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="39 / 125 g"/>
